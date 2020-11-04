@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Phase1 Suite">
+
+    <test name="Login And Logout">
+        <classes>
+            <class name="testCases.LoginTests">
+                    <methods>
+                        <include name="loginIntoApplication"></include>
+                        <include name="Scrolling"></include>
+                        <include name="ListBoxDemo"></include>
+                    </methods>
+            </class>
+            <class name="testCases.TrainingSession">
+                <methods>
+                    <include name="AlertWindow"></include>
+                    <include name="Slider"></include>
+                    <include name="JavaScriptAlert"></include>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>

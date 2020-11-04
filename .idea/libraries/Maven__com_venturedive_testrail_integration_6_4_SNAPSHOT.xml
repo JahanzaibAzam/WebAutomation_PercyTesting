@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.venturedive:testrail-integration:6.4-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/venturedive/testrail-integration/6.4-SNAPSHOT/testrail-integration-6.4-20201020.101728-1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/venturedive/testrail-integration/6.4-SNAPSHOT/testrail-integration-6.4-20201020.101728-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/venturedive/testrail-integration/6.4-SNAPSHOT/testrail-integration-6.4-20201020.101728-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
