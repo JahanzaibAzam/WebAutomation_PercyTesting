@@ -1,0 +1,16 @@
+{
+  "name": "venturedive-web-automation-framework-216936e8104d",
+  "version": "1.0.0",
+  "description": "Pre-requisites:   - Java JDK 8 should be installed   - JAVA_HOME environment variable should be set",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Jahanzaib_azam@bitbucket.org/Jahanzaib_azam/test-percy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Jahanzaib_azam/test-percy#readme"
+}

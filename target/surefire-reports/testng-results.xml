@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-11-05T00:45:09Z" name="Phase1 Suite" finished-at="2020-11-05T00:45:36Z" duration-ms="27921">
+    <groups>
+    </groups>
+    <test started-at="2020-11-05T00:45:09Z" name="Login And Logout" finished-at="2020-11-05T00:45:36Z" duration-ms="27921">
+      <class name="testCases.TrainingSession">
+        <test-method is-config="true" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:testCases.TrainingSession@518caac3]" started-at="2020-11-05T05:45:29Z" name="beforeTest" finished-at="2020-11-05T05:45:29Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void testCases.TrainingSession.AlertWindow()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="AlertWindow()[pri:0, instance:testCases.TrainingSession@518caac3]" started-at="2020-11-05T05:45:29Z" name="AlertWindow" description="124640" finished-at="2020-11-05T05:45:29Z" duration-ms="529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AlertWindow -->
+        <test-method is-config="true" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:testCases.TrainingSession@518caac3]" started-at="2020-11-05T05:45:29Z" name="beforeTest" finished-at="2020-11-05T05:45:29Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void testCases.TrainingSession.JavaScriptAlert() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="QuitDriver(org.testng.ITestResult, org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:testCases.TrainingSession@518caac3]" started-at="2020-11-05T05:45:29Z" name="QuitDriver" finished-at="2020-11-05T05:45:29Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AlertWindow status=SUCCESS method=TrainingSession.AlertWindow()[pri:0, instance:testCases.TrainingSession@518caac3] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@11b377c5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public static void testCases.TrainingSession.AlertWindow()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitDriver -->
+        <test-method signature="JavaScriptAlert()[pri:0, instance:testCases.TrainingSession@518caac3]" started-at="2020-11-05T05:45:29Z" name="JavaScriptAlert" description="124640" finished-at="2020-11-05T05:45:36Z" duration-ms="7336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JavaScriptAlert -->
+        <test-method is-config="true" signature="QuitDriver(org.testng.ITestResult, org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:testCases.TrainingSession@518caac3]" started-at="2020-11-05T05:45:36Z" name="QuitDriver" finished-at="2020-11-05T05:45:36Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=JavaScriptAlert status=SUCCESS method=TrainingSession.JavaScriptAlert()[pri:0, instance:testCases.TrainingSession@518caac3] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@11b377c5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public static void testCases.TrainingSession.JavaScriptAlert() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitDriver -->
+      </class> <!-- testCases.TrainingSession -->
+      <class name="testCases.LoginTests">
+        <test-method is-config="true" signature="beforesuite(org.testng.ITestContext)[pri:0, instance:testCases.LoginTests@45ac5f9b]" started-at="2020-11-05T05:45:06Z" name="beforesuite" finished-at="2020-11-05T05:45:09Z" duration-ms="2670" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@11b377c5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method is-config="true" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:testCases.LoginTests@45ac5f9b]" started-at="2020-11-05T05:45:09Z" name="beforeTest" finished-at="2020-11-05T05:45:09Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void testCases.LoginTests.loginIntoApplication()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="loginIntoApplication()[pri:0, instance:testCases.LoginTests@45ac5f9b]" started-at="2020-11-05T05:45:09Z" name="loginIntoApplication" description="124640" finished-at="2020-11-05T05:45:09Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIntoApplication -->
+        <test-method is-config="true" signature="QuitDriver(org.testng.ITestResult, org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:testCases.LoginTests@45ac5f9b]" started-at="2020-11-05T05:45:09Z" name="QuitDriver" finished-at="2020-11-05T05:45:09Z" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginIntoApplication status=SUCCESS method=LoginTests.loginIntoApplication()[pri:0, instance:testCases.LoginTests@45ac5f9b] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@11b377c5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public static void testCases.LoginTests.loginIntoApplication()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitDriver -->
+        <test-method signature="Scrolling()[pri:0, instance:testCases.LoginTests@45ac5f9b]" started-at="2020-11-05T05:45:09Z" name="Scrolling" description="134264" finished-at="2020-11-05T05:45:22Z" duration-ms="13739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scrolling -->
+        <test-method is-config="true" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:testCases.LoginTests@45ac5f9b]" started-at="2020-11-05T05:45:09Z" name="beforeTest" finished-at="2020-11-05T05:45:09Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void testCases.LoginTests.Scrolling() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="QuitDriver(org.testng.ITestResult, org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:testCases.LoginTests@45ac5f9b]" started-at="2020-11-05T05:45:22Z" name="QuitDriver" finished-at="2020-11-05T05:45:22Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Scrolling status=SUCCESS method=LoginTests.Scrolling()[pri:0, instance:testCases.LoginTests@45ac5f9b] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@11b377c5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public static void testCases.LoginTests.Scrolling() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitDriver -->
+        <test-method is-config="true" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:testCases.LoginTests@45ac5f9b]" started-at="2020-11-05T05:45:22Z" name="beforeTest" finished-at="2020-11-05T05:45:22Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void testCases.LoginTests.ListBoxDemo() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="ListBoxDemo()[pri:0, instance:testCases.LoginTests@45ac5f9b]" started-at="2020-11-05T05:45:22Z" name="ListBoxDemo" description="124640" finished-at="2020-11-05T05:45:29Z" duration-ms="6278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ListBoxDemo -->
+        <test-method is-config="true" signature="QuitDriver(org.testng.ITestResult, org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:testCases.LoginTests@45ac5f9b]" started-at="2020-11-05T05:45:29Z" name="QuitDriver" finished-at="2020-11-05T05:45:29Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ListBoxDemo status=SUCCESS method=LoginTests.ListBoxDemo()[pri:0, instance:testCases.LoginTests@45ac5f9b] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@11b377c5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public static void testCases.LoginTests.ListBoxDemo() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitDriver -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginTests@45ac5f9b]" started-at="2020-11-05T05:45:36Z" name="tearDown" finished-at="2020-11-05T05:45:37Z" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.LoginTests -->
+    </test> <!-- Login And Logout -->
+  </suite> <!-- Phase1 Suite -->
+</testng-results>

@@ -196,11 +196,9 @@ public class BaseTest extends LogHelper {
         }
         WebDriverFactory.getDriver().close();
         endTime = getTime();
-        if (LogTestRail.equals("true")) {
-            com.venturedive.base.utility.TestRail.createSuite();
-//            com.venturedive.base.utility.TestRail.updateTestRail();
-//            com.venturedive.base.utility.TestRail.AttachImagesWithTestResults(screenShotCollection);
-        }
-        dbconn.insertReportingDataIntoDB(startTime, passedCount, failedCount, skippedCount, startTime, endTime); //need to open after jira integration
+//        if (LogTestRail.equals("true")) {
+//            com.venturedive.base.utility.TestRail.createSuite();
+//        }
+//        dbconn.insertReportingDataIntoDB(startTime, passedCount, failedCount, skippedCount, startTime, endTime); //need to open after jira integration
     }
 }

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Phase1 Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test name="Login And Logout">
+    <classes>
+      <class name="testCases.LoginTests">
+        <methods>
+          <include name="loginIntoApplication"/>
+          <include name="Scrolling"/>
+          <include name="ListBoxDemo"/>
+        </methods>
+      </class> <!-- testCases.LoginTests -->
+      <class name="testCases.TrainingSession">
+        <methods>
+          <include name="AlertWindow"/>
+          <include name="Slider"/>
+          <include name="JavaScriptAlert"/>
+        </methods>
+      </class> <!-- testCases.TrainingSession -->
+    </classes>
+  </test> <!-- Login And Logout -->
+</suite> <!-- Failed suite [Phase1 Suite] -->
